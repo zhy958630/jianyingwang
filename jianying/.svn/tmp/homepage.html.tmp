@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>主页</title>
+		<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+		<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/homepage.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--二维码b-->
+		<div class="erweima">
+			<img src="img/qrcode.jpg"/><br />
+			<button class="guangbi btn btn-default btn-xs">关闭</button>
+		</div>
+		<!--二维码e-->
+		<!--头部b-->
+		<div class="container header">			
+			<div class="row">
+				<div class="logo1 col-md-2 clearfix">				
+					<img src="img/logo.png"/>
+				</div>
+				<div class="search col-md-4 col-md-offset-3 hidden-sm hidden-xs">
+				    <div class="input-group">
+	                	<input type="text" class="form-control" onkeydown="onKeyDown(event)"/>
+	                	<span class="input-group-addon""><i class="glyphicon glyphicon-search"></i></span>            
+	                </div>
+				</div>
+			</div>			
+			<!--导航条b-->
+			<div class="row daohang">
+				<ul class="nav navbar-nav">
+			        		<li class="dropdown">
+						       	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						        	<span class="glyphicon glyphicon-menu-hamburger"></span>
+						            	摄影服务		        
+					            </a>
+					            <ul class="dropdown-menu" role="menu">
+					                <li><a href="/JoyE/listpage.html">摄影师</a></li>
+					                <li><a href="/JoyE/listpage.html">模特</a></li>
+					                <li><a href="/JoyE/listpage.html">影楼</a></li>
+					            </ul>
+					        </li>
+				            <li class="active"><a href="">毕业照</a></li>
+				            <li><a href="/JoyE/culumn_wedding.html">婚纱照</a></li>
+				            <li><a href="">写真</a></li>    
+				            <li><a href="">婚纱照</a></li>
+				            <li><a href="">写真</a></li>   				            
+				       </ul>			
+			</div>		
+			<!--导航条e-->				
+		</div>
+		<!--头部e-->		
+		<!--右侧导航b-->
+		<div class="rnav clearfix hidden-xs">
+			<div class="clearfix">
+				<div class="Item">
+					<div class="neirong"><a href="/JoyE/profile.html">个人中心</a></div>
+					<span class="glyphicon glyphicon-user">				
+					</span>
+				</div>
+				<div class="Item">
+					<div class="neirong"><a href="">我的收藏</a></div>
+					<span class="glyphicon glyphicon-heart">				
+					</span>
+				</div>
+				<div class="Item">
+					<div class="neirong"><a href="">背景音乐</a></div>
+					<span class="glyphicon glyphicon-music">				
+					</span>
+				</div>
+				<div class="Item">
+					<div class="neirong"><a href="/JoyE/ social.html">我的社区</a></div>
+					<span class="glyphicon glyphicon-globe">				
+					</span>
+				</div>
+				<div class="Item">
+					<span class="glyphicon glyphicon-qrcode">				
+					</span>
+				</div>			
+			</div>			
+		</div>
+		
+		<!--右侧导航e-->		
+		<!--轮播图-->
+		<div class="lunbo">
+			
+			<div id="carousel-example-generic" class="carousel slide">
+			  	<!-- 圆圈指示符 -->
+			  	<ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			 	</ol>
+			
+			  	<!-- 图片容器 -->
+			  	<div class="carousel-inner">
+			    	<div class="item active">
+			      		<img src="img/homepageImg/1.png" alt="...">
+			      		<div class="carousel-caption">		        
+			      		</div>
+			    	</div>
+			    	<div class="item">
+			      		<img src="img/homepageImg/2.jpg" alt="...">
+			     	 	<div class="carousel-caption">			       
+			      		</div>
+			    	</div>
+			   		<div class="item">
+			      		<img src="img/homepageImg/3.jpg" alt="...">
+			      		<div class="carousel-caption">			       
+			      		</div>
+			    	</div>
+			  	</div>			
+				<!-- 左右控制按钮 -->
+				<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+				  	<span class="glyphicon glyphicon-chevron-left" aria-hideen="true"></span>				   
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>			   
+				</a>				
+			</div>				
+		</div>		
+		<div class="container">
+			<div class="main clearfix">	
+				<h2 class="clearfix">人气摄影师</h2><h3 class="clearfix"><a href="">more&nbsp;&gt;</a></h3>
+				<div class="row hang clearfix">	
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/s1.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/s2.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/s3.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/s4.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/s5.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/s6.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+				</div>
+				
+				<h2 class="clearfix">人气模特</h2><h3 class="clearfix"><a href="">more&nbsp;&gt;</a></h3>
+				<div class="row hang clearfix">	
+					
+					<div class="col-md-2 col-sm-4 col-xs-12">
+						<div class="thumbnail boxgrid thecombo">
+					      	<img src="img/homepageImg/11.png" class="cover">
+					      	<!--改动-->
+					      	<!--<h3>Florian Nicolle</h3>
+				<p>Graphic Designer<br/><a href="http://www.nonsensesociety.com/2009/03/portrait-week-florian-nicolle/" target="_BLANK">More Work</a></p>-->
+					     	<!--改动-->
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/22.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/33.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/44.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/55.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-2 col-sm-4 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/homepageImg/66.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-lg-12 col-sm-12 hotpic">
+					<div class="container">
+						
+						<div class="clearfix hotpic">	
+							<h2 class="clearfix">热门图区<span><img src="img/homepageImg/fire.jpg"/></span></h2><h3 class="clearfix"><a href="">more&nbsp;&gt;</a></h3>
+							<div class="row hang clearfix">						
+														
+							<div class="col-md-3 col-sm-6 col-xs-12 muban">
+								<div class="thumbnail">
+						      		<img src="img/homepageImg/99.png" alt="..." class="img-rounded">					      		
+						     		<div class="caption">		     						 
+						        		<p class="clearfix">
+						        			<span class="zname clearfix">作品名字</span>
+						        			<span class="number clearfix">						        			
+						        			<span class="glyphicon glyphicon-camera"></span>&nbsp;241
+						        			<span class="glyphicon glyphicon-heart"></span>&nbsp;113						        			
+						        			</span>
+						        		</p>					        	
+						      		</div>
+						    	</div>
+							</div>							
+							<div class="col-md-3 col-sm-6 col-xs-12 muban">
+								<div class="thumbnail">
+						      		<img src="img/homepageImg/11.png" alt="..." class="img-rounded">					      		
+						     		<div class="caption">		     						 
+						        		<p class="clearfix">
+						        			<span class="zname clearfix">作品名字</span>
+						        			<span class="number clearfix">						        			
+						        			<span class="glyphicon glyphicon-camera"></span>&nbsp;241
+						        			<span class="glyphicon glyphicon-heart"></span>&nbsp;113						        			
+						        			</span>
+						        		</p>					        	
+						      		</div>
+						    	</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 muban">
+								<div class="thumbnail">
+						      		<img src="img/homepageImg/22.png" alt="..." class="img-rounded">					      		
+						     		<div class="caption">		     						 
+						        		<p class="clearfix">
+						        			<span class="zname clearfix">作品名字</span>
+						        			<span class="number clearfix">						        			
+						        			<span class="glyphicon glyphicon-camera"></span>&nbsp;241
+						        			<span class="glyphicon glyphicon-heart"></span>&nbsp;113						        			
+						        			</span>
+						        		</p>					        	
+						      		</div>
+						    	</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 muban">
+								<div class="thumbnail">
+						      		<img src="img/homepageImg/33.png" alt="..." class="img-rounded">					      		
+						     		<div class="caption">		     						 
+						        		<p class="clearfix">
+						        			<span class="zname clearfix">作品名字</span>
+						        			<span class="number clearfix">						        			
+						        			<span class="glyphicon glyphicon-camera"></span>&nbsp;241
+						        			<span class="glyphicon glyphicon-heart"></span>&nbsp;113						        			
+						        			</span>
+						        		</p>					        	
+						      		</div>
+						    	</div>
+							</div>
+						</div>
+						
+						<div class="row hang clearfix">						
+													
+							<div class="col-md-3 col-sm-6 col-xs-12 muban">
+								<div class="thumbnail">
+						      		<img src="img/homepageImg/66.png" alt="..." class="img-rounded">					      		
+						     		<div class="caption">		     						 
+						        		<p class="clearfix">
+						        			<span class="zname clearfix">作品名字</span>
+						        			<span class="number clearfix">						        			
+						        			<span class="glyphicon glyphicon-camera"></span>&nbsp;241
+						        			<span class="glyphicon glyphicon-heart"></span>&nbsp;113						        			
+						        			</span>
+						        		</p>					        	
+						      		</div>
+						    	</div>
+							</div>							
+							<div class="col-md-3 col-sm-6 col-xs-12 muban">
+								<div class="thumbnail">
+						      		<img src="img/homepageImg/77.png" alt="..." class="img-rounded">					      		
+						     		<div class="caption">		     						 
+						        		<p class="clearfix">
+						        			<span class="zname clearfix">作品名字</span>
+						        			<span class="number clearfix">						        			
+						        			<span class="glyphicon glyphicon-camera"></span>&nbsp;241
+						        			<span class="glyphicon glyphicon-heart"></span>&nbsp;113						        			
+						        			</span>
+						        		</p>					        	
+						      		</div>
+						    	</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 muban">
+								<div class="thumbnail">
+						      		<img src="img/homepageImg/88.png" alt="..." class="img-rounded">					      		
+						     		<div class="caption">		     						 
+						        		<p class="clearfix">
+						        			<span class="zname clearfix">作品名字</span>
+						        			<span class="number clearfix">						        			
+						        			<span class="glyphicon glyphicon-camera"></span>&nbsp;241
+						        			<span class="glyphicon glyphicon-heart"></span>&nbsp;113						        			
+						        			</span>
+						        		</p>					        	
+						      		</div>
+						    	</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 muban">
+								<div class="thumbnail">
+						      		<img src="img/listImg/2.png" alt="..." class="img-rounded">					      		
+						     		<div class="caption">		     						 
+						        		<p class="clearfix">
+						        			<span class="zname clearfix">作品名字</span>
+						        			<span class="number clearfix">						        			
+						        			<span class="glyphicon glyphicon-camera"></span>&nbsp;241
+						        			<span class="glyphicon glyphicon-heart"></span>&nbsp;113						        			
+						        			</span>
+						        		</p>					        	
+						      		</div>
+						    	</div>
+							</div>
+						</div>
+					</div>
+
+					</div>
+				</div>				
+			</div>						
+		</div>
+	
+		<div class="container photography clearfix">
+			<h2 class="clearfix">摄影社区</h2><h3 class="clearfix"><a href="">more&nbsp;&gt;</a></h3>
+			<div class="row clearfix">
+				<div class="col-md-9 col-sm-12 clearfix tupian">
+					<div class="atlas">						
+						<div class="pic selected">
+							<div class="beijing"></div>
+							<div class="aminateText">
+								<p class="text1">摄影</p>
+								<p class="text2">我们是认真的！</p>
+							</div>							
+							<img src="img/homepageImg/4.jpg"/>			
+						</div>
+						<div class="pic">
+							<div class="beijing"></div>
+							<div class="aminateText">
+							 	<p class="text1">落日余晖</p>
+							 	<p class="text2">拾起曾错过的美</p>
+							</div>							
+							<img src="img/homepageImg/5.jpg"/>
+						</div>
+						<div class="pic">
+							<div class="beijing"></div>
+							<div class="aminateText">
+							 	<p class="text1">毕业了</p>
+							 	<p class="text2">致我们终将逝去的青春</p>
+							</div>							
+							<img src="img/homepageImg/6.jpg"/>
+						</div>
+						<div class="pic">
+							<div class="beijing"></div>
+							<div class="aminateText">
+							 	<p class="text1">饿了么</p>
+							 	<p class="text2">我与美食有个约会</p>
+							</div>
+							<img src="img/homepageImg/7.jpg"/ >
+						</div>
+						<div class="pic">
+							<div class="beijing"></div>
+							<div class="aminateText">
+							 	<p class="text1">人生若只如初见</p>
+							 	<p class="text2">微微一笑很倾城</p>
+							</div>							
+							<img src="img/homepageImg/8.jpg"/>
+						</div>
+		
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-12 clearfix wenzi visible-lg">
+					<table class="tab">
+						<tr>
+						<td class="tab-item active">
+							<span class="glyphicon glyphicon-triangle-left span1"></span>
+							<p class="theme">舌尖上的里约奥运会&nbsp;&nbsp;真的有那么好吃吗</p>
+							<p class="details">四年一度美食大戏，请问金牌的味道怎么样？</p>
+						</td>	
+						</tr>
+						<tr>
+						<td class="tab-item">
+							<span class="glyphicon glyphicon-triangle-left span2"></span>
+							<p class="theme">舌尖上的里约奥运会&nbsp;&nbsp;真的有那么好吃吗</p>
+							<p class="details">四年一度美食大戏，请问金牌的味道怎么样？</p>
+						</td>
+						</tr>
+						<tr>
+						<td class="tab-item">
+							<span class="glyphicon glyphicon-triangle-left span3"></span>
+							<p class="theme">舌尖上的里约奥运会&nbsp;&nbsp;真的有那么好吃吗</p>
+							<p class="details">四年一度美食大戏，请问金牌的味道怎么样？</p>
+						</td>
+						</tr>						
+						
+						<tr>
+						<td class="tab-item">
+							<span class="glyphicon glyphicon-triangle-left span4"></span>
+							<p class="theme">舌尖上的里约奥运会&nbsp;&nbsp;真的有那么好吃吗</p>
+							<p class="details">四年一度美食大戏，请问金牌的味道怎么样？</p>
+						</td>
+						</tr>
+						
+						<tr>
+						<td class="tab-item">
+							<span class="glyphicon glyphicon-triangle-left span5"></span>
+							<p class="theme">舌尖上的里约奥运会&nbsp;&nbsp;真的有那么好吃吗</p>
+							<p class="details">四年一度美食大戏，请问金牌的味道怎么样？</p>
+						</td>
+						</tr>						
+					</table>					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	    <meta http-equiv="content-type" content="text/html" charset="gb2312"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+		<title>简映网首页</title>		
+		<link rel="stylesheet" type="text/css" href="css/social.css"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/headAndFoot.css" />	  
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>	
+	    <script src="js/social.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>		
+		 <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+	</head>		
+	<body>
+		<nav class="navbar navbar-default top-nav ">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">
+		      	<img class="logo" src="img/socialimg/logo.png" />
+		      </a>
+		    </div>		
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">登录</a></li>
+		        <li><a href="#">注册</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">收藏<span class="caret"></span></a>
+		          <ul class="dropdown-menu nav-collect">
+		            <li><a href="#">【摄影师】Sasds</a></li>
+		            <li><a href="#">【模特】mary</a></li>
+		            <li><a href="#">【影楼】柚子摄影</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">查看更多</a></li>
+		          </ul>
+		        </li>
+		        <li>
+		        	<a href="#"><span class="glyphicon glyphicon-user" style="color: purple;"></span>&nbsp;个人空间</a>
+		        </li>
+		      </ul>
+		      <form class="navbar-form navbar-right" role="search" >
+		          <input type="text" class="seach-input"  placeholder="新西兰婚纱"><button type="submit" class="seach-btn">
+		          	<span class="glyphicon glyphicon-search"></span>
+		          </button>
+		      </form>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
+		
+		<div class="theme">			
+			<div id="demo">
+			    <div id="indemo">
+					<div id="demo1">
+						<a href="#"><img src="img/socialimg/0Z9155WFW5BN_1000x500.jpg" border="0"  width="140px" height="100px"/></a>
+						<a href="#"><img src="img/socialimg/15222121_152037114000_2.jpg" border="0"  width="140px" height="100px"/></a>
+						<a href="#"><img src="img/socialimg/s4.png" border="0"  width="140px" height="100px"/></a>
+						<a href="#"><img src="img/socialimg/7667438f5dae494336977879aeced5db.jpg" border="0"  width="140px" height="100px"/></a>
+						<a href="#"><img src="img/socialimg/3535e3f478aaf5a8de3748e1072c8dd7 (1).jpg" border="0"  width="140px" height="100px"/></a>
+						<a href="#"><img src="img/socialimg/9c6e649fe59452e8736b111d1df2ba93.jpg" border="0"  width="140px" height="100px"/></a>
+						<a href="#"><img src="img/socialimg/a84ad397964c1d958a91ff507e5c5275.jpg" border="0" width="140px" height="100px"/></a>
+						<a href="#"><img src="img/socialimg/ca9c34a08c8a2a0fcd34f01ce88cc34d.jpg" border="0" width="140px" height="100px"/></a>
+						<a href="#"><img src="img/socialimg/u=2832263507,1568633158&fm=21&gp=0.jpg" border="0" width="140px" height="100px"/></a>
+					</div>
+					<div id="demo2">
+						
+					</div>
+			    </div>
+			    <script src="js/social1.js" type="text/javascript" charset="utf-8"></script>
+			</div>
+			
+			<div class="c">
+				<img id="gif" src="img/socialimg/link1.gif">  
+			</div>
+			<p>公告:</p>
+			<div id="demoo">
+			    <div id="demoo1">
+				        欢迎来到影映社区，这里应有尽有哦，好东西就要分享，快快告诉你周边的朋友吧！
+				</div>
+				<div id="demoo2">
+					
+				</div>
+				<script src="js/social2.js" type="text/javascript" charset="utf-8"></script>
+	        </div>				  
+	     
+			<div class="content">				
+					<img id="logo" src="img/socialimg/社区logo.png"/>	
+				<div class="hidden-xs" id="value">
+					
+				</div>	
+					
+				<div class="btn-group  visible-xs">
+					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					    类别 <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu">
+					    <li><a href="#">婚纱</a></li>
+					    <li><a href="#">大杂烩</a></li>
+					    <li><a href="#">写真</a></li>
+					    <li><a href="#">旅拍</a></li>
+					    <li class="divider">旅拍</li>
+					    <li><a href="#">街拍</a></li>
+					  </ul>
+				</div>
+								
+				<div class="btn-group hidden-xs">
+					 <button type="button" class="btn btn-default" onclick="myfun5()">-></button>
+					  <button type="button" class="btn btn-default" onclick="myfun()" id="p1">大杂烩</button>
+					  <button type="button" class="btn btn-default" onclick="myfun1()" id="p2">婚纱</button>
+					  <button type="button" class="btn btn-default" onclick="myfun2()" id="p3">写真</button>
+					  <button type="button" class="btn btn-default" onclick="myfun3()" id="p4">旅拍</button>
+					  <button type="button" class="btn btn-default" onclick="myfun4()" id="p5">街拍</button>
+				</div>	
+			
+			</div>			
+		</div>		
+		<div class="container scenry">
+			<div class="row scenry">
+				<div class="col-lg-8 col-md-8 col-xs-12 col-xs-12">
+					<div class="panel panel-primary" style="border: none">
+						<div class="d" style="height:10px">
+							
+						</div>
+						<div class="panel-body">					     
+								<div class="thumbnail st">
+									<p>2016&nbsp;&nbsp;-&nbsp;&nbsp;9&nbsp;&nbsp;-&nbsp;&nbsp;25&nbsp;&nbsp;&nbsp;8:00</p>							  
+								   <!--  <div class="background"></div>-->
+								     <img id="view_img" src="img/socialimg/bAOJLiFH8e.jpg"/>
+								     <img id="accordion" src="img/socialimg/社区3.jpg"/>
+								    <div class="st1 hidden-xs">
+									     <a href="###" onclick="seeBig(this)"><img src="img/socialimg/BkflrQf4DF.jpg" ></a>
+								    </div>
+								    <div class="st2 hidden-xs">
+									     <a href="###" onclick="seeBig(this)"><img src="img/socialimg/bAOJLiFH8e.jpg" ></a>
+								    </div>
+								</div>								
+												
+						</div>
+						
+						<div class="panel-body">						        
+								<div class="thumbnail st">
+								    <p>2016&nbsp;&nbsp;-&nbsp;&nbsp;9&nbsp;&nbsp;-&nbsp;&nbsp;25&nbsp;&nbsp;&nbsp;8:00</p>
+								   
+								 <!--   <div class="background"></div>-->
+									<img id="view_im" src="img/socialimg/20G58PICYBK_1024.jpeg"/>		
+						            <img id="accordion" src="img/socialimg/社区3.jpg"/>
+								<div class="st1 hidden-xs">
+									<a href="###" onclick="seeBi(this)"><img  src="img/socialimg/20G58PICYBK_1024.jpeg" ></a>
+								</div>
+								<div class="st2 hidden-xs">
+									<a href="###" onclick="seeBi(this)"><img  src="img/socialimg/oqXyRVXuSi.jpg" ></a>
+								</div>
+							</div>	
+						</div>
+						  
+						 <div class="panel-body">						        
+							<div class="thumbnail st">
+								    <p>2016&nbsp;&nbsp;-&nbsp;&nbsp;9&nbsp;&nbsp;-&nbsp;&nbsp;25&nbsp;&nbsp;&nbsp;8:00</p>
+								   <!--<h3>晨曦下的巴厘岛</h3>
+								   <h5>——————小小鹰</h5>-->
+								    <!--<div class="background"></div>-->
+									<img id="view_i" src="img/socialimg/5yLR4ZJVgd.jpg"/>		
+						            <img id="accordion" src="img/socialimg/社区3.jpg"/>
+								<div class="st1 hidden-xs">
+									<a href="###" onclick="seeB(this)"><img  src="img/socialimg/19P58PIC2gd_1024.jpeg" ></a>
+								</div>
+								<div class="st2 hidden-xs">
+									<a href="###" onclick="seeB(this)"><img  src="img/socialimg/oqXyRVXuSi.jpg" ></a>
+								</div>
+							</div>	
+						</div>
+						
+						 <div class="panel-body">						        
+							<div class="thumbnail st">
+								   <p>2016&nbsp;&nbsp;-&nbsp;&nbsp;9&nbsp;&nbsp;-&nbsp;&nbsp;25&nbsp;&nbsp;&nbsp;8:00</p>
+								  <!-- <div class="background"></div>-->
+									<img id="view_" src="img/socialimg/fAwvac25kt.jpg"/>		
+						            <img id="accordion" src="img/socialimg/社区3.jpg"/>
+								<div class="st1 hidden-xs">
+									<a href="###" onclick="see(this)"><img  src="img/socialimg/19P58PIC2gd_1024.jpeg" ></a>
+								</div>
+								<div class="st2 hidden-xs">
+									<a href="###" onclick="see(this)"><img  src="img/socialimg/fAwvac25kt.jpg" ></a>
+								</div>
+							</div>	
+						</div>
+						
+						<div class="panel-body">						        
+							<div class="thumbnail st">
+							   <p>2016&nbsp;&nbsp;-&nbsp;&nbsp;9&nbsp;&nbsp;-&nbsp;&nbsp;25&nbsp;&nbsp;&nbsp;8:00</p>	
+							   <!--<div class="background"></div>-->
+									<img id="view" src="img/socialimg/20G58PICYBK_1024.jpeg"/>		
+						            <img id="accordion" src="img/socialimg/社区3.jpg"/>
+								<div class="st1 hidden-xs">
+									<a href="###" onclick="se(this)"><img  src="img/socialimg/20G58PICYBK_1024.jpeg" ></a>
+								</div>
+								<div class="st2 hidden-xs">
+									<a href="###" onclick="se(this)"><img  src="img/socialimg/oqXyRVXuSi.jpg" ></a>
+								</div>
+							</div>	
+						</div>
+											  
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="panel panel-primary" style="border: none">						
+						<div class="heading" style="font-size: 28px">
+							热门
+						</div>
+						<div class="panel-body social" style="margin-top: -35px;">
+							<div class=" thumbnail sb">								
+								<div class="thumbnail sb1 clearfix">									
+									<img src="img/socialimg/ca9c34a08c8a2a0fcd34f01ce88cc34d.jpg"/>	
+									<div class="font1">
+										欧美唯美婚纱
+									</div>
+									<div class="font2">
+										点赞数：13万
+									</div>
+								</div>								
+							</div>	
+							
+							<div class=" thumbnail sb">								
+								<div class="thumbnail sb1">
+									<img src="img/socialimg/7667438f5dae494336977879aeced5db.jpg"/>	
+									<table border="0px" cellspacing="" cellpadding="">
+										<div class="font1">
+										欧美唯美婚纱
+									</div>
+									<div class="font2">
+										点赞数：15万
+									</div>
+									</table>
+								</div>								
+							</div>	
+							
+							<div class=" thumbnail sb">								
+								<div class="thumbnail sb1">
+									<img src="img/socialimg/2ddd754eda52e21fd7340d555d2d7f34.jpg"/>	
+									<div class="font1">
+										欧美唯美婚纱
+									</div>
+									<div class="font2">
+										点赞数：12万
+									</div>
+								</div>								
+							</div>	
+							
+							<div class=" thumbnail sb">								
+								<div class="thumbnail sb1">
+									<img src="img/socialimg/3535e3f478aaf5a8de3748e1072c8dd7 (1).jpg"/>	
+									<div class="font1">
+										欧美唯美婚纱
+									</div>
+									<div class="font2">
+										点赞数：12万
+									</div>
+								</div>								
+							</div>	
+							
+							<div class=" thumbnail sb">								
+								<div class="thumbnail sb1">
+									<img src="img/socialimg/a84ad397964c1d958a91ff507e5c5275.jpg"/>	
+									<div class="font1">
+										欧美唯美婚纱
+									</div>
+									<div class="font2">
+										点赞数：14万
+									</div>
+								</div>								
+							</div>	
+							
+							<div class=" thumbnail sb">								
+								<div class="thumbnail sb1">
+									<img src="img/socialimg/a84ad397964c1d958a91ff507e5c5275.jpg"/>	
+									<div class="font1">
+										欧美唯美婚纱
+									</div>
+									<div class="font2">
+										点赞数：14万
+									</div>
+								</div>								
+							</div>
+																			
+							<div class="thumbnail sc">
+								<img  class="picture1" src="img/socialimg/0Z9155WFW5BN_1000x500.jpg"/>
+								<div class="sc1">
+									新西兰旅拍
+								</div>
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+							<div class="thumbnail sc">
+								<img class="picture1"  src="img/socialimg/s4.png"/>								
+								<div class="sc1">
+									新西兰旅拍
+								</div>									
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+							<div class="thumbnail sc">
+								<img  class="picture1" src="img/socialimg/15222121_152037114000_2.jpg"/>
+								<div class="sc1">
+									新西兰旅拍
+								</div>
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+							<div class="thumbnail sc">
+								<img  class="picture1" src="img/socialimg/u=2832263507,1568633158&fm=21&gp=0.jpg"/>
+								<div class="sc1">
+									新西兰旅拍
+								</div>
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+								<div class="thumbnail sc">
+								<img class="picture1"  src="img/socialimg/s4.png"/>								
+								<div class="sc1">
+									新西兰旅拍
+								</div>									
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+							<div class="thumbnail sc">
+								<img  class="picture1" src="img/socialimg/15222121_152037114000_2.jpg"/>
+								<div class="sc1">
+									新西兰旅拍
+								</div>
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>
+							
+							<div class="thumbnail sc">
+								<img  class="picture1" src="img/socialimg/15222121_152037114000_2.jpg"/>
+								<div class="sc1">
+									新西兰旅拍
+								</div>
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+							<div class="thumbnail sc">
+								<img  class="picture1" src="img/socialimg/15222121_152037114000_2.jpg"/>
+								<div class="sc1">
+									新西兰旅拍
+								</div>
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+							<div class="thumbnail sc">
+								<img  class="picture1" src="img/socialimg/15222121_152037114000_2.jpg"/>
+								<div class="sc1">
+									新西兰旅拍
+								</div>
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+							<div class="thumbnail sc">
+								<img  class="picture1" src="img/socialimg/15222121_152037114000_2.jpg"/>
+								<div class="sc1">
+									新西兰旅拍
+								</div>
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+							<div class="thumbnail sc">
+								<img  class="picture1" src="img/socialimg/u=2832263507,1568633158&fm=21&gp=0.jpg"/>
+								<div class="sc1">
+									新西兰旅拍
+								</div>
+								<div class="sc2">
+									点赞数：1万
+								</div>
+							</div>	
+							
+						</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	
+		<nav class="nav navbar-default foot-nav ">
+			<div class="container-fluid">
+				<ul class=" ">
+					<li><a href="#">关于我们</a>|</li><li>
+					<a href="#">广告投放</a>|</li><li>
+					<a href="#">版权声明</a>|</li><li>
+					<a href="#">友情链接</a>|</li><li>
+					<a href="#">在线交谈</a></li>
+				</ul>
+			</div>
+			<div class="foot-text">
+				<p class="text-center">2016 fengniao.com. All rights reserved . 因吹思婷有限公司（简映网）版权所有</p>
+				<p class="text-center">Copyright© 2003-2016 POCO CO.,LTD.</p>
+			</div>
+		</nav>
+	</body>
+</html>

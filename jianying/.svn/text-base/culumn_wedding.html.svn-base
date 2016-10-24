@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>婚纱栏目</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" href="css/sangarSlider.css" type="text/css" media="all">
+		
+		<link rel="stylesheet" href="css/column.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="assets/js/imagesloaded.min.js"></script>
+		
+		<script src="js/sangarSlider.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sangarBaseClass.js"></script>
+		
+		<script type="text/javascript" src="js/headAndFoot.js" ></script>
+		<script type="text/javascript" src="js/culumn.js" ></script>
+		<script>
+			
+		</script>
+	</head>
+	<body>
+		<script>
+			addHead();//插入网页头部
+		</script>
+		
+		
+		<div class="fixed-back">
+			<img src="img/columnIndex/topBack.jpg" />
+		</div>
+		
+		
+			
+		<div class="container content-back">
+			<!--动画文字-->
+			<div class="aminateText hidden-xs">
+				<span class="text-one">Will you</span>
+				<span class="text-two">marry me?</span>
+			</div>
+			
+			<div class="row picture-part">
+				<div class="col-xs-12 col-sm-6 col-md-6 picture-part-left" style="border: 1px solid gainsboro;background-color: white;">
+					<div style="margin: 4px;">
+						<img src="img/weddingDress/096d61d21debc0a2bc58b0afe3ba6432.jpg" style="width: 100%;" />
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 picture-part-right">
+					<div class="row">
+						<div class="row title">
+							<span class="glyphicon glyphicon-camera"></span>热门婚拍 
+							<a class="more">->more</a>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 img-div  " data-toggle="modal" data-target="#myModal" >
+							<img src="img/weddingDress/1f532cc881dfc20c8dd17b39ba0865a5.jpg" />
+							<span class="imgTitle"></span>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 img-div" data-toggle="modal" data-target="#myModal">
+							<img src="img/weddingDress/2ddd754eda52e21fd7340d555d2d7f34.jpg"/>
+							<span class="imgTitle"></span>
+						</div>
+					<!--</div>-->
+					<!--<div class="row">-->
+						<div class="col-xs-6 col-sm-6 col-md-6 img-div" data-toggle="modal" data-target="#myModal">
+							<img src="img/weddingDress/3535e3f478aaf5a8de3748e1072c8dd7 (1).jpg"/>
+							<span class="imgTitle"></span>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 img-div" data-toggle="modal" data-target="#myModal">
+							<img src="img/weddingDress/45dd7d1bd4269c85cfafb09cc68eb0dd.jpg"/>
+							<span class="imgTitle"></span>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="row sellerlist-part">
+				<ul class="nav nav-tabs">
+				  <li data-name="cameraman" role="presentation" class=" active"><a >热门摄影师</a></li>
+				  <li data-name="studio" role="presentation" class=""><a >热门影楼</a></li>
+				</ul>
+				
+				<div class="container-fluid">
+					<div class="row sellerlist">
+						<div class="col-xs-4 col-sm-4 col-md-2">
+						    <div class="thumbnail">
+						      <img src="img/listImg/1.png" alt="...">
+						      <img class="leveIcon" src="img/atrworkmaster/ptrlevelIcon/acer.png"/>
+						      <div class="caption">
+						      	<p><h4>Asdq liili</h4></p>
+						        <p><a href="#" class="btn btn-primary" role="button">进入Ta的空间</a></p>
+						      </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row show-part scene-part">
+				<!--<div class="show-part-fixed">
+					<img src="img/columnIndex/scene.png" />
+				</div>-->
+				<div class="title-part">
+					<p class="title">拍摄场地</p>
+					<p class="small-title">scene</p>
+					<span class="glyphicon glyphicon-triangle-bottom"></span>
+				</div>
+				<div class="show-part-fixed">
+					<img src="img/columnIndex/scene.png" />
+				</div>
+				<div class="container">
+					<div class="row intordut">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<div class="show-text">
+								<h1>如何挑选拍摄场地？</h1>
+								<ul>
+									<li>第一，各大城市都有一些城市景可以作为外景婚纱点，多以城市建筑为主，比较适合黑白和暗调。 </li> 
+									<li>第二，各大城市周边的公园或距离不太远的风景点也都可以作为外景婚纱的拍摄点，比较自然，出行费用也低。 </li> 
+									<li>第三，海景主要是大连，青岛八大关海滩和海南岛的三亚，以三亚的海景最好，但如果一本相册都是海景，你会发现拍出的东西非常单调。 </li> 
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 show-picture">
+							<div>
+								<img style="width: 100%;" src="img/weddingDress/23_114944_2.jpg" />
+							</div>
+						</div>
+					</div>
+					<hr />
+					<div class="row imgList">
+						
+						<div class="col-xs-6 col-sm-4 col-md-2 img-div">
+							<div class="imgtitle">三亚</div>
+							 <a href="#" class="thumbnail">
+								<img src="img/weddingPlace/2016020113121618481651x300_200_1.jpg" />
+						    </a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2 img-div">
+							<div class="imgtitle">大连</div>
+							 <a href="#" class="thumbnail">
+								<img src="img/weddingPlace/2016042515283446603160x300_200_1.jpg" />
+							</a>	
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2 img-div">
+							<div class="imgtitle">大理</div>
+							 <a href="#" class="thumbnail">
+								<img src="img/weddingPlace/2016071810435049024045x300_200_1.jpg" />
+							</a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2 img-div">
+							<div class="imgtitle">蒙古</div>
+							 <a href="#" class="thumbnail">
+								<img src="img/weddingPlace/2016072609594234662756x300_200_1.jpg" />
+							</a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2 img-div">
+							<div class="imgtitle">巴黎</div>
+							 <a href="#" class="thumbnail">
+								<img src="img/weddingPlace/2016081211351107877718x300_200_1.jpg" />
+							</a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2 img-div">
+							<div class="imgtitle">日本</div>
+							 <a href="#" class="thumbnail">
+								<img src="img/weddingPlace/2016081916511030979844x300_200_1.jpg" />
+							</a>	
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row show-part dress-part">
+				<div class="title-part">
+					<p class="title">最美婚纱</p>
+					<p class="small-title">wedding dress</p>
+					<span class="glyphicon glyphicon-triangle-bottom"></span>
+				</div>
+				<div class="show-part-fixed">
+					<img class="scaleImgBig" src="img/columnIndex/dress.png"  />
+				</div>
+				<div class="container show-picture">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-4 big-img">
+								<div class='sangar-slideshow-container' id='sangar-weddingDress'>
+									<div class='sangar-content-wrapper' >	
+										
+										<!--第一张图为广告图-->
+										<div class='sangar-content'><img src='img/weddingDress/dress/6c044104f33d88349ca5ee2f812148b95e56a3ae652d-F8bUmY_fw658.jpg' /></div>
+										
+										<!--js渲染其他图片内容-->
+									</div>
+								</div>	
+							
+								<div class="visible-xs-block visible-sm-block litter-nav">
+									<ul>
+										<!--js渲染导航内容-->
+									</ul>
+								</div>
+							
+						</div>
+						<div class="hidden-xs  col-sm-6 col-md-8 imgList">
+							<div  class="top-part" >
+								<a href="#" >
+									<span data-index="1">木子摄影</span>
+									<img src="img/weddingDress/dress/524dd015cca2247198961b4c2e7cba13b70d82652cbfb-NkSANz_fw658.jpg" />
+								</a>
+								<a href="#" >
+									<span data-index="2">Photoballon</span>
+									<img src="img/weddingDress/dress/781f7e24dba612c221c2e8c2b1542b204da216b154e35-63fd3r_fw658.jpg" />
+								</a>
+								<a href="#" >
+									<span data-index="3">shootMydog</span>
+									<img src="img/weddingDress/dress/9bae4b5197a83bcd372ccb7ea3a39f5e08a0acf52d942-g83wP6_fw658.jpg" />
+								</a>
+								<a href="#" >
+									<span data-index="4">米多摄影</span>
+									<img src="img/weddingDress/dress/dd51d294b4792fc89634d0734fce3cc891355ad7313bf-AQwBT9_fw658.jpg" />
+								</a>
+								<a href="#" >
+									<span data-index="5">大师摄影</span>
+									<img src="img/weddingDress/dress/bd9bc6391eaad1957ba67d2a2a50c916773ec1c12400b-soGFRz_fw658.jpg" />
+								</a>
+							</div>
+							
+							<div class="bottom-part">
+								<div class="container-fluid">
+									<div class="normal">
+										<h2 >最美的瞬间要配上最美的婚纱</h3>
+										
+									</div>
+									<div class="row produce" style="display: none;">
+										<div class="col-sm-12 col-md-4">
+											<a href="#" class="thumbnail">
+												<img src="img/profileImg/l1.png" />
+											</a>
+										</div>
+										<div class="col-sm-12 col-md-8">
+											<h3 class="title">木子摄影</h3>
+											<p>木子摄影是国内著名的婚纱设计品牌，曾经为AngleBaby设计过，当时也被众多媒体称赞</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel"></h4>
+		      </div>
+		      <div class="modal-body">
+		       <img class="modal-img" src="img/atrworkmaster/14812016081710222879817151 (1).jpg" />
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+		        <button type="button" class="btn btn-primary">请他Ta服务</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>

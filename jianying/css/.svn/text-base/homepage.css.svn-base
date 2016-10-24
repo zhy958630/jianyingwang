@@ -1,0 +1,396 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body{
+	position: relative;
+}
+/*选中状态b*/
+.main .thumbnail{
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.main .thumbnail:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 5px #cccccc;
+  -moz-box-shadow: 0px 0px 5px #cccccc;
+  box-shadow: 0px 0px 5px #cccccc;
+  top: -5px;
+}
+/*选中状态e*/
+/*头部b*/
+.header .logo1 img{
+	width: 150px;
+	height: 53px;
+	margin: 40px auto;
+}
+.header .daohang a{
+	color: black !important;
+}
+.header .daohang .nav .dropdown-menu{
+	width: 104px !important;
+	border: 1px solid pink;
+}
+.header .daohang .nav>li>a:hover {
+    text-decoration: none;
+    color: white !important;
+    background-color: #31244f;
+}	
+.open>a:focus, .nav .open>a:hover {
+    background-color: #31244f !important;
+    border-color: #337ab7;
+}
+.header .search{
+	position: relative;
+	top: 55px;
+}
+.header .search input{
+	border: 1px solid #333333;
+	
+}
+
+.header .search span{
+	background-color: #31244f;
+	border: 1px solid #333333;
+}
+.header .search span i{
+	color: #FFFFFF;
+}
+/*右侧导航条*/
+.rnav{
+	position: fixed;
+	right: 0;
+	top:200px;
+	z-index: 100;
+}
+.rnav .neirong{
+	text-align: center;
+	z-index: 10000;
+	display:block;
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	left: -63px;
+	margin: auto 2px;
+	padding-left: 5px;
+	border-radius: 3px 0 0 2px;
+	color: white;
+	transition: all	2s ease;	
+	-webkit-transition: all 1s ease;
+	opacity: 0;
+}
+.rnav .neirong a{
+	color: white;
+	text-decoration: none;
+}
+.rnav .Item{
+	background-color: #31244f;
+	margin-bottom: 2px;
+}
+.rnav .Item .neirong.hover{
+	opacity: 1;
+	background-color: #31244f;
+}
+.rnav .Item span{
+	text-align: center;
+	font-size: 20px;
+	margin: 8px 8px;
+	color: white;
+}
+.erweima{
+	display: none;
+	position: fixed;
+	padding: 15px 15px;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.2);
+	top:30%;
+	left: 39%;
+	z-index: 111111111111111111;
+}
+.erweima button{
+	float: right;
+	margin-top: 10px;
+}
+/*轮播部分*/
+.lunbo{
+	border-top: 2px solid #31244f;
+}
+.carousel-indicators .active {
+	background-color: #31244f;
+}
+
+.main h2{
+	display: inline-block;
+	float: left;
+	color: #6b6a6a;
+	text-shadow: 2px 2px 4px #6452a0; /*字体浮雕效果*/
+}
+
+.main h3{
+	display: inline-block;
+	float: right;
+}
+.main p{
+	color: #6b6a6a;
+	border-bottom: 1px solid #dadada;
+}
+.main p span{
+	color: deepskyblue;
+}
+.main .caption .author{
+	/*border: none;*/
+	text-align: center;
+	font-size: 15px;
+	position: relative;
+	font-weight: 600;
+	line-height: 50px;
+}
+.main .caption .author .grade{
+	position: absolute;
+	top:2px;
+	font-size: 10px;
+	color: #FAE294;
+}
+.main .caption .fensi{
+	float: right;
+	border: none;
+	font-size: 14px;
+	line-height: 14px;
+}
+.main .caption .fensi span{
+	display: inline-block;
+	font-size: 14px;
+	color: red;
+}
+.main .picture{
+	text-align: center;
+	border: none;
+	font-size: 14px;
+	line-height: 35px;
+}
+/*选中状态b*/
+.hotpic .thumbnail{
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.hotpic .thumbnail:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 5px #cccccc;
+  -moz-box-shadow: 0px 0px 5px #cccccc;
+  box-shadow: 0px 0px 5px #cccccc;
+  top: -5px;
+}
+/*选中状态e*/
+.hotpic h2{
+	display: inline-block;
+	float: left;
+	color: #6b6a6a;
+	text-shadow: 2px 2px 4px #6452a0; /*字体浮雕效果*/
+}
+.hotpic h2 span{
+	position: relative;
+}
+.hotpic h2 span img{
+	position: absolute;
+	left: 10px;
+	top: 3px;
+}
+.hotpic h3{
+	display: inline-block;
+	float: right;
+}
+.hotpic .thumbnail{
+	position: relative;
+}
+.hotpic .thumbnail img{
+	padding-bottom: 1px;
+	border-bottom: 1px solid #a7a7a7;
+}
+.hotpic .thumbnail .caption p{
+	position: relative;
+	top: 10px;
+	
+}
+.hotpic .zname{
+	float: left;
+	color: #515567;
+	font-size: 10px;
+}
+.hotpic .number{
+	float: right;
+	color: #515567;
+	font-size: 10px;
+}
+.container-fluid .hotpic{
+	background: #eeeeee;
+}
+
+/*摄影社区*/
+.photography h2{
+	float: left;
+	display: inline-block;
+	color: #6b6a6a;
+	text-shadow: 2px 2px 4px #6452a0; /*字体浮雕效果*/
+}
+.photography h3{
+	float: right;
+	display: inline-block;
+}
+.photography .tupian{
+	padding: 0;
+}
+.photography .wenzi{
+	padding: 0;
+}
+.photography .wenzi ul{
+	list-style: none;
+}
+.photography .tupian .atlas .aminateText{
+	position: absolute;
+	font-size: 25px;
+	color: white;
+	top: 10%;
+	left: 25%;
+}
+.photography .tupian .atlas .beijing{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	z-index: 1000000;
+	background-color: rgba(0,0,0,.3);
+}
+/*文字效果*/
+.aminateText .text1 {
+  -webkit-animation: textOne 2s ease ;
+  -moz-animation: textOne 2s ease ;
+  -ms-animation: textOne 2s ease ;
+ 	transform: scale(1.8,1.8);
+}
+.aminateText .text2{
+	text-indent: 2em;
+  -webkit-animation: textTwo 2s ease ;
+   -moz-animation: textTwo 2s ease ;
+  -ms-animation: textTwo 2s ease ;
+ 	transform: scale(1.8,1.8);
+}
+@-webkit-keyframes textOne {
+  from {
+    opacity: 0;
+    transform: scale(1,1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.8,1.8);
+  }
+}
+@-webkit-keyframes textTwo {
+  from {
+    opacity: 0;
+    transform: scale(1,1);
+  }
+  to {
+    opacity: 1;
+     transform: scale(1.8,1.8);
+  }
+}
+.photography .tupian .atlas img{
+	width: 100%;
+}
+.photography .tupian .atlas .pic{
+	display: none;
+	position: relative;
+}
+.photography .wenzi .tab tr td{
+	position: relative;
+}
+.photography .wenzi .tab tr .tab-item span{
+	display: none;
+}
+.photography .wenzi .tab tr .span1{
+	color: white;	
+	position: absolute;
+	font-size: 15px;
+	left: -11px;
+	top: 50%;
+	z-index: 99999999;
+}
+.photography .wenzi .tab tr .span2{
+	color: white;	
+	position: absolute;
+	font-size: 15px;
+	left: -11px;
+	top: 50%;
+	z-index: 99999999;
+}
+.photography .wenzi .tab tr .span3{
+	color: white;	
+	position: absolute;
+	font-size: 15px;
+	left: -11px;
+	top: 50%;
+	z-index: 99999999;
+}
+.photography .wenzi .tab tr .span4{
+	color: white;	
+	position: absolute;
+	font-size: 15px;
+	left: -11px;
+	top: 50%;
+	z-index: 99999999;
+}
+.photography .wenzi .tab tr .span5{
+	color: white;	
+	position: absolute;
+	font-size: 15px;
+	left: -11px;
+	top: 50%;
+	z-index: 99999999;
+}
+.photography .tupian .atlas .pic.selected{
+ 	display: block;
+}
+.photography .wenzi .tab{
+	height: 702px;
+	background: #f7f7f7;
+}
+.photography .wenzi .tab .tab-item{	
+	letter-spacing: 2px;
+	padding: 15px 12px;
+}
+.photography .wenzi .tab tr .theme{
+	font-size: 16px;
+}
+.photography .wenzi .tab tr .details{
+	font-size: 12px;
+	color: #999999;
+}
+		
+.photography .wenzi .tab tr.active{
+	background: white !important;
+	font-weight: 800;
+	border: 1px solid #8C8C8C;
+}
+.photography .wenzi .tab tr.active span{
+	display: block;
+}
+/*# sourceMappingURL=homepage.css.map */

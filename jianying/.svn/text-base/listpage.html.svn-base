@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" /> 
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>列表页</title>
+		<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/list_page.css"/>
+		<script src="js/headAndFoot.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/listpage.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>		
+		<div class="container">
+			
+			<div class="header clearfix">
+												
+				<div class="hbottom clearfix">
+					<div class="row">						
+						<h6 class="clearfix col-md-12 col-sm-12 col-lg-12">
+							<span>种类:</span>
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#">全部</a></li>		  
+								<li><a href="#">摄影师</a></li>
+								<li><a href="#">模特</a></li>
+								<li><a href="#">影楼</a></li>
+							</ul>
+						</h6>						
+					</div>
+					
+					<div class="row">						
+						<h6 class="clearfix col-md-12 col-sm-12 col-lg-12">
+							<span>地区:</span>
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#">全部</a></li>		  
+								<li><a href="#">北京</a></li>
+								<li><a href="#">上海</a></li>
+								<li><a href="#">广州</a></li>
+							</ul>
+						</h6>						
+					</div>
+					
+					<div class="row">						
+						<h6 class="clearfix col-md-12 col-sm-12 col-lg-12">
+							<span>类型:</span>
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#">全部</a></li>		  
+								<li><a href="#">写真</a></li>
+								<li><a href="#">毕业照</a></li>
+								<li><a href="#">艺术照</a></li>
+							</ul>
+						</h6>						
+					</div>
+					
+					<div class="row">						
+						<h6 class="clearfix col-md-12 col-sm-12 col-lg-12">
+							<span>种类:</span>
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#">全部</a></li>		  
+								<li><a href="#">高级</a></li>
+								<li><a href="#">中级</a></li>
+								<li><a href="#">初级</a></li>
+							</ul>
+						</h6>						
+					</div>
+					
+					<div class="row">
+						<h6 class="clearfix col-md-12 col-sm-12 col-lg-12 paixu">
+							<span>排序:</span>
+							<ul class="nav nav-pills">
+								<select name="">
+									<option value="">最新发布</option>
+									<option value="">最热门</option> 
+								</select>
+								<select name="">
+									<option value="">正序</option>
+									<option value="">倒序</option>
+								</select>	
+								<span class="sum clearfix">
+									共&nbsp;300&nbsp;个筛选结果
+								</span>		
+							</ul>
+						</h6>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="main clearfix">	
+				<div class="row hang">
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/1.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/2.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/3.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/4.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					
+				</div>
+				
+				<div class="row hang">
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/5.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/6.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/7.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/8.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					
+				</div>
+				
+				<div class="row hang">
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/9.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/1.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/2.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/3.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					
+				</div>
+				
+				<div class="row hang">
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/4.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/5.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/6.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/7.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					
+				</div>
+				
+				<div class="row hang">
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/8.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/9.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/1.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/2.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">摄影师名&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					
+					
+				</div>
+				
+				<div class="row">
+					
+					<div class="paging col-md-12 col-lg-12 col-xs-12 col-sm-12">
+						<ul class="pagination">
+						  	<li><a href="#">&laquo;上一页</a></li>
+						  	<li class="active"><a href="#">1</a></li>
+						  	<li><a href="#">2</a></li>
+						  	<li><a href="#">3</a></li>
+						  	<li><a href="#" class="next_page">&raquo;下一页</a></li>		  	
+						</ul>
+						<ul class="pright clearfix">
+							<li><span class="sum">&nbsp;共30页，到第<input type="text" placeholder="1"></input>页</span></li>
+						  	<li><a href="#" class="confirm btn-sm">确定</a></li>
+						</ul>
+					</div>
+				
+				</div>
+				<div class="cameraman">
+					<h2>人气摄影师</h2>
+					<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 muban" data-toggle="modal" data-target="#myModal">
+						<div class="thumbnail">
+					      	<img src="img/listImg/s1.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">Tony&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/s2.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">MiMi&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/s3.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">榕榕&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 muban">
+						<div class="thumbnail">
+					      	<img src="img/listImg/s4.png" alt="...">
+					     	<div class="caption">		     		
+					        	<p class="author">Pablo&nbsp;<span class="grade">王牌</span></p>
+					        	<p class="picture">婚纱照&nbsp;&nbsp;&nbsp;&nbsp;毕业照</p>
+					        	<p class="fensi clearfix">粉丝：<span class="clearfix">1233</span>人</p>					        	
+					      	</div>
+					    </div>
+					</div>
+				</div>
+					</div>
+					<!--模态框b-->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					        <h4 class="modal-title" id="myModalLabel">Tony</h4>
+					      </div>
+					      <div class="modal-body">
+					        <p>王牌摄影师</p>
+					        <p>从事纪录片制作与影像教育工作，获奖无数；</p>
+					        <p>其作品在于探索摄影媒介的本质，并结合东西方的哲学和美学！</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					       <!-- <button type="button" class="btn btn-primary">保存修改</button>-->
+					      </div>
+					    </div><!-- /.modal-content -->
+					  </div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+					<!--模态框e-->
+				<div class="row">						
+					<div class="return col-md-12 col-sm-12 col-xs-12 col-lg-12">
+						<a href="" class="btn btn-primary">返回首页</a>
+					</div>					
+				</div>
+			</div>
+			
+				
+		</div>
+	</body>
+</html>

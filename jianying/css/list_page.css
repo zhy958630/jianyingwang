@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*字体倒影*/
+/*.text-reflect{
+	-webkit-box-reflect: below 10px -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.5));
+}*/
+.header .hbottom {
+	position: relative;
+	top: 40px;
+  margin: 0 auto;
+}
+.header .hbottom h6{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dadada;
+}
+
+.header .hbottom h6 span{
+	float: left;
+	position: relative;
+	top: 10px;
+	margin-right: 15px;
+}
+.header .hbottom select{
+	position: relative;
+	margin-right: 15px;
+	top: 7px;
+}
+.header .hbottom .sum {
+  color: #717171;
+  float: right;
+  position: relative;
+	top: 10px;
+}
+.main{
+	margin: 0 auto;
+	position: relative;
+	top:60px;
+/*	border: 1px solid #dadada;*/
+}
+/*选中状态b*/
+.main .thumbnail{
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.main .thumbnail:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 5px #cccccc;
+  -moz-box-shadow: 0px 0px 5px #cccccc;
+  box-shadow: 0px 0px 5px #cccccc;
+  top: -5px;
+}
+/*选中状态e*/
+.main p{
+	color: #6b6a6a;
+	border-bottom: 1px solid #dadada;
+}
+.main p span{
+	color: deepskyblue;
+}
+/*.main .grade{
+	float: right;
+}*/
+.main .caption .author{
+	/*border: none;*/
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	font-weight: 600;
+	line-height: 50px;
+}
+.main .caption .author .grade{
+	position: absolute;
+	top:2px;
+	font-size: 14px;
+	color: #FAE294;
+}
+.main .caption .fensi{
+	float: right;
+	border: none;
+	/*margin-bottom: 5px;*/
+	font-size: 14px;
+	line-height: 14px;
+}
+.main .caption .fensi span{
+	display: inline-block;
+	font-size: 14px;
+	color: red;
+}
+
+.main .picture{
+	text-align: center;
+	border: none;
+	font-size: 14px;
+	line-height: 35px;
+}
+.main .paging{
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+.main .paging .next_page{
+	/*border-right: ;*/
+}
+.main .paging .pright{
+	display: inline-block;
+	list-style: none;
+}
+.main .paging .pright{
+	position: relative;
+	top: -12px;
+}
+.main .paging .pright li{
+	float: left;
+}
+.main .paging .pright a{
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	top: 2px;
+	margin-left: 4px;
+}
+.main .paging .pright span{
+	display: inline-block;
+}
+.main .paging .sum input{
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #dadada;
+	border-radius: 2px;
+}
+.main .paging .confirm{
+	background-color: #dadada;
+	color: #6b6a6a;
+}
+.main .cameraman{
+	margin-top: 160px;
+	margin-bottom: 90px;
+}
+.main .cameraman h2{
+	margin-bottom: 40px;
+	color: white;
+	text-shadow: 2px 2px 4px #000000; /*字体浮雕效果*/
+}
+.return .btn-primary{
+	background-color: #6452a0;
+	border: none;
+}
+
+.main .return{
+		text-align: center;
+		margin-bottom: 90px;
+}
+/*模态框b*/
+.modal-content{
+	background-color: mediumpurple;
+	opacity: .9;
+}
+h4.modal-title{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px #000000; /*字体浮雕效果*/
+	
+}
+.modal-body p{
+	color: white !important;
+}
+/*# sourceMappingURL=index.css.map */

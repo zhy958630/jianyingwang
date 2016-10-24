@@ -1,0 +1,301 @@
+@charset 'utf-8';
+/**
+    * 其他适用颜色
+ */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+@media only screen and (max-width: 767px) {
+  body {
+    padding-bottom: 70px;
+  }
+}
+.shadow {
+  -webkit-box-shadow: 0px 0px 5px #cccccc;
+  -moz-box-shadow: 0px 0px 5px #cccccc;
+  box-shadow: 0px 0px 5px #cccccc;
+}
+.container {
+  margin-bottom: 50px;
+}
+.container:after,
+.container:before {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.head {
+  position: relative;
+  height: 230px;
+  background-color: #5f5d5d;
+  background-repeat: no-repeat;
+}
+.head > .headbcImg {
+  height: 230px;
+  width: 100%;
+  position: absolute;
+}
+.head > .fontBox {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.head > .fontBox .name {
+  font-size: 16px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+.head > .fontBox .area {
+  font-size: 10px;
+  color: #dadada;
+}
+.head > .fontBox .motto {
+  color: #FFFFFF;
+}
+.head > .fontBox > ul {
+  float: right;
+  margin-right: 50px;
+  position: relative;
+  top: -50px;
+}
+@media only screen and (max-width: 766px) {
+  .head > .fontBox > ul {
+    display: none;
+  }
+}
+.head > .fontBox > ul > li {
+  list-style: none;
+  display: inline-block;
+  color: #FFFFFF;
+  margin: 0 5px;
+}
+.head > .fontBox > p {
+  display: block;
+  line-height: 10px;
+}
+.head > #favicon {
+  position: relative;
+  display: block;
+  width: 125px;
+  height: 125px;
+  border: 2px solid #b28b3e;
+  margin: 0 auto;
+  top: 20px;
+}
+.vp-memu {
+  z-index: 200;
+  position: fixed;
+  right: 0px;
+}
+.vp-memu > ul > li {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  list-style: none;
+  text-align: center;
+  background-color: #204D74;
+  margin: 1px;
+}
+.vp-memu > ul > li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.p-navbar {
+  -webkit-box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+  border-top: 2px solid #6452a0;
+}
+.p-navbar > button {
+  height: 50px;
+  text-align: center;
+  border: none;
+  background-color: #f8f8f8;
+  color: #6b6a6a;
+}
+.panelMenu {
+  height: 50px;
+  border-bottom: 2px solid #f2b36a;
+  margin-bottom: 30px;
+}
+.panelMenu > ul li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+}
+.panelMenu a {
+  text-decoration: none;
+  display: block;
+  color: #6b6a6a;
+}
+.panelMenu #TA-collect-tab:hover,
+.panelMenu #TA-jobs-tab:hover,
+.panelMenu #TA-servies-tab:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 5px #cccccc;
+  -moz-box-shadow: 0px 0px 5px #cccccc;
+  box-shadow: 0px 0px 5px #cccccc;
+}
+.panelMenu .pointer {
+  width: 16px;
+  height: 16px;
+  background-color: #6452a0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 41px;
+  left: 44.5%;
+  transition: all 0.3s ease;
+}
+.panelMenu .zoomout {
+  -webkit-transform: translate(8px 8px);
+  -moz-transform: translate(8px 8px);
+  -ms-transform: translate(8px 8px);
+  -o-transform: translate(8px 8px);
+  transform: translate(8px 8px);
+  -webkit-transform: scaleX(0.1) scaleY(0.1);
+  -moz-transform: scaleX(0.1) scaleY(0.1);
+  -ms-transform: scaleX(0.1) scaleY(0.1);
+  -o-transform: scaleX(0.1) scaleY(0.1);
+  transform: scaleX(0.1) scaleY(0.1);
+}
+#TA-servies .thumbnail {
+  position: relative;
+}
+#TA-servies .thumbnail:after,
+#TA-servies .thumbnail:before {
+  content: " ";
+  display: block;
+  clear: both;
+}
+#TA-servies .thumbnail label {
+  color: #6452a0;
+}
+#TA-servies .thumbnail .caption {
+  padding-bottom: 0px;
+}
+#TA-servies .thumbnail .st-btn {
+  height: 30px;
+  margin-bottom: 0px;
+  border-top: 1px solid #dadada;
+}
+#TA-servies .thumbnail .st-btn a {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+#TA-servies .thumbnail .st-btn .btn {
+  width: 50%;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+#TA-servies .thumbnail .st-btn .btn:first-of-type {
+  border-right: 1px solid #dadada;
+}
+#TA-servies .thumbnail .st-btn .btn:hover {
+  border-top: 1px solid #6452a0;
+}
+#TA-servies .thumbnail:hover {
+  -webkit-box-shadow: 0px 0px 5px #cccccc;
+  -moz-box-shadow: 0px 0px 5px #cccccc;
+  box-shadow: 0px 0px 5px #cccccc;
+  top: -10px;
+}
+.piclist {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.piclist img {
+  width: 100%;
+  overflow: hidden;
+}
+.piclist .p1 {
+  border-bottom: 1px solid rgba(218, 218, 218, 0.8);
+  line-height: 30px;
+  padding: 0 5px;
+}
+.piclist .p1:after,
+.piclist .p1:before {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.piclist .p1 img {
+  height: 24px;
+  width: 24px;
+  margin: 3px 0;
+}
+.piclist .p2 {
+  margin-top: -10px;
+  line-height: 20px;
+  padding: 0 5px;
+}
+.piclist .picName {
+  float: left;
+  font-weight: 800;
+  font-size: 14px;
+}
+.piclist .collectTimes {
+  float: right;
+}
+.piclist:hover {
+  cursor: pointer;
+  top: -5px;
+  -webkit-box-shadow: 0px 0px 5px #cccccc;
+  -moz-box-shadow: 0px 0px 5px #cccccc;
+  box-shadow: 0px 0px 5px #cccccc;
+}
+.col-style {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  color: #6b6a6a;
+  font-weight: 800;
+  font-size: 24px;
+  border-bottom: 1px solid #dadada;
+}
+.modal-content {
+  top: 100px;
+}
+.modal-content img {
+  width: 100%;
+}
+.modal-body p {
+  height: 30px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.modal-body p img {
+  height: 30px;
+  width: 30px;
+}
+.modal-body p .tab {
+  display: inline-block;
+  -webkit-box-shadow: 0px 0px 5px #cccccc;
+  -moz-box-shadow: 0px 0px 5px #cccccc;
+  box-shadow: 0px 0px 5px #cccccc;
+  width: 60px;
+  height: 20px;
+  margin: 5px 2px;
+  background-color: #EC971F;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
